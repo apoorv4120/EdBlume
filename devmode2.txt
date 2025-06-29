@@ -1,0 +1,879 @@
+// EdBlume
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 39.33px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 16.22px;
+ word-wrap: break-word
+---
+// Research Foundation
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 9px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 16.22px;
+ word-wrap: break-word
+---
+// Mission
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 23px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 34.50px;
+ word-wrap: break-word
+---
+// Framework
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 23px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 34.50px;
+ word-wrap: break-word
+---
+// Our Story
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 23px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 34.50px;
+ word-wrap: break-word
+---
+// Events
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 23px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 34.50px;
+ word-wrap: break-word
+---
+// Volunteer
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 23px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 34.50px;
+ word-wrap: break-word
+---
+// Discovering Hidden Potential. <br/>Transforming Education.
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 48px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 72px;
+ word-wrap: break-word
+---
+// EdBlume Research Foundation is a registered nonprofit (Section 8, Companies Act, 2013) on a mission to promote emotional well-being, empower aspiring educators, and support neurodiverse learners through research, training, and inclusive programs.
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Join Us
+color: white;
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Donor Interest Form
+color: var(--Primary-Border-Default, #542C8A);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Our Mission
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// To build emotionally resilient, inclusive learning communities by empowering educators, uplifting neurodiverse learners, and bridging skill gaps through collaborative research and training.<br/><br/>
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// We aim to reshape systems from within—one teacher, one child, one institution at a time.
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 700;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Our Framework
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// The EdBlume Framework is a research-driven model built around three foundational intersections:
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// 01
+color: var(--Meteorite-200, #A17AD5);
+ font-size: 57px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// Research + Collaboration → 
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// Innovation
+color: var(--Secondary-Border-Darker, #00A085);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// We combine evidence-based inquiry with input from educators, institutions, and parents to co-create scalable, real-world solutions.
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// 02
+color: var(--Meteorite-200, #A17AD5);
+ font-size: 57px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// Training + Collaboration → 
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// Synergy
+color: var(--Secondary-Text-Label, #00A085);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// Our programs are designed with stakeholders at the center—ensuring collective ownership and long-term success.
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// 03
+color: var(--Meteorite-200, #A17AD5);
+ font-size: 57px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// Research + Training → 
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// Empowerment
+color: var(--Secondary-Text-Label, #00A085);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// By translating research into accessible, inclusive training, we equip educators, parents, and learners to make informed, confident decisions.
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// What We Do
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// We offer a series of programs grounded in research and empathy, targeted at the emotional, academic, and social well-being of learners and educators.
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// 01
+color: #FBD5D5;
+ font-size: 57px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 60px;
+ word-wrap: break-word
+---
+//  EmLab – Emotional Ecology in Action
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// A research program based on Bronfenbrenner’s Ecological Systems Theory and inspired by emotion studies by Hong & Cross, EmLab explores how emotional well-being is shaped by our environments.
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// What We Offer:
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Thrice-weekly live online classes<br/>Assessments and reflective teaching practice<br/>Emotional intelligence and pedagogy modules<br/>Certification upon completion
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Who We Work With:
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Women with basic qualifications but limited classroom experience<br/>Schools seeking certified substitute educators
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Outcomes:
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// A pool of confident, skilled, certified women educators ready to fill critical staffing gaps without compromising on quality.
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// 02
+color: #CEDBF3;
+ font-size: 57px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// NeuroNest – For Neurodiverse Minds
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// A structured homeschooling and after-school support program for children with 
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// Autism
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+//  and 
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// ADHD
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// , built to complement—not replace—mainstream education.
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// What We Offer:
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Skill-building modules: 3, 6, and 12-month durations<br/>
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Focus areas:<br/>
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 700;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Executive functioning (organization, focus)<br/>Emotional regulation and communication<br/>Life skills and self-advocacy<br/>Confidence-building in real-world settings
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Who We Work With:
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Neurodiverse children<br/>Parents & Educators
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Outcomes:
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Improved social, emotional, and cognitive functioning for long-term independence and classroom integration.
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// 03
+color: var(--Meteorite-100, #BCA1E1);
+ font-size: 57px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// Bloom Teachers – Empowering Women Educators
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// A 6-month intensive online teacher training program designed for 
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// women returning to work
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// , 
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// career changers
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// , and those with a passion for teaching but no formal classroom experience.
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 33px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 49.50px;
+ word-wrap: break-word
+---
+// What We Offer:
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Thrice-weekly live online classes<br/>Assessments and reflective teaching practice<br/>Emotional intelligence and pedagogy modules<br/>Certification upon completion
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Who We Work With:
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Women with basic qualifications but limited classroom experience<br/>Schools seeking certified substitute educators
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Outcomes:
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// A pool of confident, skilled, certified women educators ready to fill critical staffing gaps without compromising on quality.
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Our Focus Areas
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// Capacity Building
+color: var(--Secondary-Border-Default, #00D3B0);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Train under-skilled women to become effective K–12 educators.<br/><br/>Conduct fellowships and workshops in pedagogy, classroom management, and emotional intelligence.
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Neurodiverse Support
+color: var(--Secondary-Border-Default, #00D3B0);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Offer tailored programs for children with ASD and ADHD.<br/><br/>Facilitate smoother integration into mainstream education.
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Collaboration<br/>
+color: var(--Secondary-Border-Default, #00D3B0);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Develop digital platforms for educators to share insights and innovations.<br/><br/>Publish research, case studies, and policy recommendations.
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Advocacy<br/>
+color: var(--Secondary-Border-Default, #00D3B0);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Promote emotional intelligence using the EmEco model and Emotional Intelligence Index (EII).<br/><br/>Partner with schools, NGOs, and corporates for awareness, training, and systemic change.
+color: var(--Greyscale-Text-Negative, white);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Our Story
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// EdBlume was born from decades of classroom experience and leadership in education. We saw dedicated teachers pushed to burnout, neurodiverse learners struggling to keep up, and parents left without guidance.<br/><br/>The education system was moving too fast to pause and care. We created EdBlume to slow it down—to bring back empathy, to support those who teach and learn differently, and to remind everyone that no child should be left behind.<br/> 
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 23px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 34.50px;
+ word-wrap: break-word
+---
+// Meet our Team
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// Indrani Singh
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// To build emotionally resilient, inclusive learning communities by empowering educators, uplifting neurodiverse learners, and bridging skill gaps through collaborative research and training.<br/><br/>
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// We aim to reshape systems from within—one teacher, one child, one institution at a time.
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 700;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Rajiv Ranjan Singh
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// To build emotionally resilient, inclusive learning communities by empowering educators, uplifting neurodiverse learners, and bridging skill gaps through collaborative research and training.<br/><br/>
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// We aim to reshape systems from within—one teacher, one child, one institution at a time.
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 700;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Events & Media
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// Podcast Series featuring educator journeys
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Workshops on Change (e.g., Manickjee Cooper School)
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// EmLab School Visits – Emotional Ecology in action
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// Coming Soon!
+color: var(--Primary-Border-Elevated, #6C38B1);
+ font-size: 40px;
+ font-family: Helvetica;
+ font-weight: 700;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Volunteer With Us
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// Help us uncover hidden potential in communities by contributing your time and talent.<br/><br/>Opportunities include:<br/>
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 23px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 34.50px;
+ word-wrap: break-word
+---
+// Data analysis<br/>Research assistance<br/>Community fieldwork<br/>Internships<br/>
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 23px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 34.50px;
+ word-wrap: break-word
+---
+// <br/>Volunteers receive a certificate of participation and real-world impact experience. 
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 23px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 34.50px;
+ word-wrap: break-word
+---
+// Apply Here
+color: white;
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Interested in helping us grow our impact?<br/>
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 28px;
+ font-family: Manrope;
+ font-weight: 800;
+ line-height: 42px;
+ word-wrap: break-word
+---
+// We welcome donations, partnerships, and pro bono collaborations. Let’s nurture a future that values emotional well-being and academic excellence.
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 23px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 34.50px;
+ word-wrap: break-word
+---
+// Donor Interest Form
+color: white;
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Discover
+color: #00A085;
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+//  Hidden Potential.
+color: black;
+ font-size: 40px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 60px;
+ word-wrap: break-word
+---
+// EdBlume
+color: var(--Greyscale-Text-Title, #0A0B0B);
+ font-size: 65.29px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 26.93px;
+ word-wrap: break-word
+---
+// Research Foundation
+color: var(--Greyscale-Text-Body, #222626);
+ font-size: 14.94px;
+ font-family: Manrope;
+ font-weight: 600;
+ line-height: 26.93px;
+ word-wrap: break-word
+---
+// We’d love to hear from schools, NGOs, professionals, and volunteers.<br/>
+color: black;
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// indrani@edblume.com
+color: black;
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// linkedin.com/
+color: black;
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// First Name
+color: var(--Greyscale-Text-Disabled, #6A7777);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Last Name
+color: var(--Greyscale-Text-Disabled, #6A7777);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Email address
+color: var(--Greyscale-Text-Disabled, #6A7777);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// What do you need assistance with?
+color: var(--Greyscale-Text-Disabled, #6A7777);
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word
+---
+// Submit
+color: white;
+ font-size: 19px;
+ font-family: Helvetica;
+ font-weight: 400;
+ line-height: 30.40px;
+ word-wrap: break-word  

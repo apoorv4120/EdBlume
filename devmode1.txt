@@ -1,0 +1,296 @@
+<div style="width: 100%; height: 100%; background: white; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+    <div style="align-self: stretch; height: 116px; padding-left: 120px; padding-right: 120px; padding-top: 10px; padding-bottom: 10px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; justify-content: space-between; align-items: center; display: inline-flex">
+        <div style="width: 184.82px; height: 32.05px; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 39.33px; font-family: Manrope; font-weight: 600; line-height: 16.22px; word-wrap: break-word">EdBlume</div>
+        <div style="width: 20.64px; height: 23.57px; background: #8554C8"></div>
+        <div style="width: 21.02px; height: 36.70px; background: #ECDEFF"></div>
+        <div style="width: 24.31px; height: 16.29px; background: #00A085"></div>
+        <div style="width: 21.02px; height: 36.70px; background: #DBC3FB"></div>
+        <div style="width: 24.31px; height: 16.29px; background: #00D3B0"></div>
+        <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 9px; font-family: Manrope; font-weight: 600; line-height: 16.22px; word-wrap: break-word">Research Foundation</div>
+        <div style="justify-content: flex-start; align-items: center; gap: 56px; display: flex">
+            <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 23px; font-family: Manrope; font-weight: 600; line-height: 34.50px; word-wrap: break-word">Mission</div>
+            <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 23px; font-family: Manrope; font-weight: 600; line-height: 34.50px; word-wrap: break-word">Framework</div>
+            <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 23px; font-family: Manrope; font-weight: 600; line-height: 34.50px; word-wrap: break-word">Our Story</div>
+            <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 23px; font-family: Manrope; font-weight: 600; line-height: 34.50px; word-wrap: break-word">Events</div>
+            <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 23px; font-family: Manrope; font-weight: 600; line-height: 34.50px; word-wrap: break-word">Volunteer</div>
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 64px; padding-bottom: 64px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; flex-direction: column; justify-content: center; align-items: center; gap: 36px; display: flex">
+        <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+            <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 48px; font-family: Manrope; font-weight: 600; line-height: 72px; word-wrap: break-word">Discovering Hidden Potential. <br/>Transforming Education.</div>
+            <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">EdBlume Research Foundation is a registered nonprofit (Section 8, Companies Act, 2013) on a mission to promote emotional well-being, empower aspiring educators, and support neurodiverse learners through research, training, and inclusive programs.</div>
+        </div>
+        <div style="justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+            <div data-property-1="Primary" style="padding-left: 36px; padding-right: 36px; padding-top: 12px; padding-bottom: 12px; background: linear-gradient(150deg, var(--Primary-Surface-Subtle, #8554C8) 32%, var(--Primary-Surface-Default, #542C8A) 100%); border-radius: 12px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Join Us</div>
+            </div>
+            <div data-property-1="Secondary" style="padding-left: 36px; padding-right: 36px; padding-top: 12px; padding-bottom: 12px; border-radius: 12px; outline: 2px var(--Primary-Border-Subtle, #8554C8) solid; outline-offset: -2px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Primary-Border-Default, #542C8A); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Donor Interest Form</div>
+            </div>
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 64px; padding-bottom: 64px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; justify-content: center; align-items: center; gap: 92px; display: inline-flex">
+        <img style="width: 554px; height: 565px; position: relative; background: #F6F6F6; border-radius: 36px" src="https://placehold.co/554x565" />
+        <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 42px; display: inline-flex">
+            <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Our Mission</div>
+            <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">To build emotionally resilient, inclusive learning communities by empowering educators, uplifting neurodiverse learners, and bridging skill gaps through collaborative research and training.<br/><br/></span><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 700; line-height: 30.40px; word-wrap: break-word">We aim to reshape systems from within—one teacher, one child, one institution at a time.</span></div>
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 64px; padding-bottom: 64px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; justify-content: flex-start; align-items: center; gap: 92px; display: inline-flex">
+        <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 44px; display: inline-flex">
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Our Framework</div>
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">The EdBlume Framework is a research-driven model built around three foundational intersections:</div>
+            </div>
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 24px; display: flex">
+                <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 17px; display: inline-flex">
+                    <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Meteorite-200, #A17AD5); font-size: 57px; font-family: Manrope; font-weight: 800; line-height: 60px; word-wrap: break-word">01</div>
+                    <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 2px; display: inline-flex">
+                        <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 33px; font-family: Manrope; font-weight: 600; line-height: 49.50px; word-wrap: break-word">Research + Collaboration → </span><span style="color: var(--Secondary-Border-Darker, #00A085); font-size: 33px; font-family: Manrope; font-weight: 800; line-height: 49.50px; word-wrap: break-word">Innovation</span></div>
+                        <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">We combine evidence-based inquiry with input from educators, institutions, and parents to co-create scalable, real-world solutions.</div>
+                    </div>
+                </div>
+                <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 17px; display: inline-flex">
+                    <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Meteorite-200, #A17AD5); font-size: 57px; font-family: Manrope; font-weight: 800; line-height: 60px; word-wrap: break-word">02</div>
+                    <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 2px; display: inline-flex">
+                        <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 33px; font-family: Manrope; font-weight: 600; line-height: 49.50px; word-wrap: break-word">Training + Collaboration → </span><span style="color: var(--Secondary-Text-Label, #00A085); font-size: 33px; font-family: Manrope; font-weight: 800; line-height: 49.50px; word-wrap: break-word">Synergy</span></div>
+                        <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Our programs are designed with stakeholders at the center—ensuring collective ownership and long-term success.</div>
+                    </div>
+                </div>
+                <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 17px; display: inline-flex">
+                    <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Meteorite-200, #A17AD5); font-size: 57px; font-family: Manrope; font-weight: 800; line-height: 60px; word-wrap: break-word">03</div>
+                    <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 2px; display: inline-flex">
+                        <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 33px; font-family: Manrope; font-weight: 600; line-height: 49.50px; word-wrap: break-word">Research + Training → </span><span style="color: var(--Secondary-Text-Label, #00A085); font-size: 33px; font-family: Manrope; font-weight: 800; line-height: 49.50px; word-wrap: break-word">Empowerment</span></div>
+                        <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">By translating research into accessible, inclusive training, we equip educators, parents, and learners to make informed, confident decisions.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img style="flex: 1 1 0; height: 508.69px" src="https://placehold.co/554x509" />
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 64px; padding-bottom: 64px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="flex: 1 1 0; flex-direction: column; justify-content: center; align-items: center; gap: 16px; display: inline-flex">
+            <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">What We Do</div>
+            <div style="width: 100%; max-width: 900px; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">We offer a series of programs grounded in research and empathy, targeted at the emotional, academic, and social well-being of learners and educators.</div>
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 88px; padding-bottom: 88px; background: linear-gradient(180deg, #EF6163 0%, #A83234 100%); overflow: hidden; justify-content: flex-start; align-items: flex-start; gap: 92px; display: inline-flex">
+        <div style="flex: 1 1 0; justify-content: flex-start; align-items: flex-start; gap: 17px; display: flex">
+            <div style="justify-content: center; display: flex; flex-direction: column; color: #FBD5D5; font-size: 57px; font-family: Manrope; font-weight: 800; line-height: 60px; word-wrap: break-word">01</div>
+            <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 28px; display: inline-flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word"> EmLab – Emotional Ecology in Action</div>
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 400; line-height: 49.50px; word-wrap: break-word">A research program based on Bronfenbrenner’s Ecological Systems Theory and inspired by emotion studies by Hong & Cross, EmLab explores how emotional well-being is shaped by our environments.</div>
+            </div>
+        </div>
+        <div style="flex: 1 1 0; flex-direction: column; justify-content: center; align-items: flex-start; gap: 36px; display: inline-flex">
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">What We Offer:</div>
+                <div style="width: 100%; max-width: 750px; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Thrice-weekly live online classes<br/>Assessments and reflective teaching practice<br/>Emotional intelligence and pedagogy modules<br/>Certification upon completion</div>
+            </div>
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Who We Work With:</div>
+                <div style="width: 100%; max-width: 750px; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Women with basic qualifications but limited classroom experience<br/>Schools seeking certified substitute educators</div>
+            </div>
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Outcomes:</div>
+                <div style="width: 100%; max-width: 750px; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">A pool of confident, skilled, certified women educators ready to fill critical staffing gaps without compromising on quality.</div>
+            </div>
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 88px; padding-bottom: 88px; background: linear-gradient(180deg, #5380D5 0%, #2D539C 100%); overflow: hidden; justify-content: flex-start; align-items: flex-start; gap: 92px; display: inline-flex">
+        <div style="flex: 1 1 0; justify-content: flex-start; align-items: flex-start; gap: 17px; display: flex">
+            <div style="justify-content: center; display: flex; flex-direction: column; color: #CEDBF3; font-size: 57px; font-family: Manrope; font-weight: 800; line-height: 60px; word-wrap: break-word">02</div>
+            <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 28px; display: inline-flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">NeuroNest – For Neurodiverse Minds</div>
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 400; line-height: 49.50px; word-wrap: break-word">A structured homeschooling and after-school support program for children with </span><span style="color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 600; line-height: 49.50px; word-wrap: break-word">Autism</span><span style="color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 400; line-height: 49.50px; word-wrap: break-word"> and </span><span style="color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 600; line-height: 49.50px; word-wrap: break-word">ADHD</span><span style="color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 400; line-height: 49.50px; word-wrap: break-word">, built to complement—not replace—mainstream education.</span></div>
+            </div>
+        </div>
+        <div style="flex: 1 1 0; flex-direction: column; justify-content: center; align-items: flex-start; gap: 36px; display: inline-flex">
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">What We Offer:</div>
+                <div style="width: 100%; max-width: 750px; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Skill-building modules: 3, 6, and 12-month durations<br/></span><span style="color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 700; line-height: 30.40px; word-wrap: break-word">Focus areas:<br/></span><span style="color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Executive functioning (organization, focus)<br/>Emotional regulation and communication<br/>Life skills and self-advocacy<br/>Confidence-building in real-world settings</span></div>
+            </div>
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Who We Work With:</div>
+                <div style="width: 100%; max-width: 750px; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Neurodiverse children<br/>Parents & Educators</div>
+            </div>
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Outcomes:</div>
+                <div style="width: 100%; max-width: 750px; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Improved social, emotional, and cognitive functioning for long-term independence and classroom integration.</div>
+            </div>
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 88px; padding-bottom: 88px; background: linear-gradient(180deg, var(--Primary-Surface-Elevated, #6C38B1) 0%, var(--Primary-Surface-Darker, #3C2063) 100%); overflow: hidden; justify-content: flex-start; align-items: flex-start; gap: 92px; display: inline-flex">
+        <div style="flex: 1 1 0; justify-content: flex-start; align-items: flex-start; gap: 17px; display: flex">
+            <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Meteorite-100, #BCA1E1); font-size: 57px; font-family: Manrope; font-weight: 800; line-height: 60px; word-wrap: break-word">03</div>
+            <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 28px; display: inline-flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Bloom Teachers – Empowering Women Educators</div>
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 400; line-height: 49.50px; word-wrap: break-word">A 6-month intensive online teacher training program designed for </span><span style="color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 600; line-height: 49.50px; word-wrap: break-word">women returning to work</span><span style="color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 400; line-height: 49.50px; word-wrap: break-word">, </span><span style="color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 600; line-height: 49.50px; word-wrap: break-word">career changers</span><span style="color: var(--Greyscale-Text-Negative, white); font-size: 33px; font-family: Manrope; font-weight: 400; line-height: 49.50px; word-wrap: break-word">, and those with a passion for teaching but no formal classroom experience.</span></div>
+            </div>
+        </div>
+        <div style="flex: 1 1 0; flex-direction: column; justify-content: center; align-items: flex-start; gap: 36px; display: inline-flex">
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">What We Offer:</div>
+                <div style="width: 100%; max-width: 750px; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Thrice-weekly live online classes<br/>Assessments and reflective teaching practice<br/>Emotional intelligence and pedagogy modules<br/>Certification upon completion</div>
+            </div>
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Who We Work With:</div>
+                <div style="width: 100%; max-width: 750px; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Women with basic qualifications but limited classroom experience<br/>Schools seeking certified substitute educators</div>
+            </div>
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Outcomes:</div>
+                <div style="width: 100%; max-width: 750px; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">A pool of confident, skilled, certified women educators ready to fill critical staffing gaps without compromising on quality.</div>
+            </div>
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 64px; padding-bottom: 64px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 64px; display: flex">
+        <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 42px; display: flex">
+            <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Our Focus Areas</div>
+        </div>
+        <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+            <div style="flex: 1 1 0; align-self: stretch; padding-left: 26px; padding-right: 26px; padding-top: 41px; padding-bottom: 41px; background: linear-gradient(180deg, var(--Primary-Surface-Elevated, #6C38B1) 26%, var(--Primary-Surface-Default, #542C8A) 100%); overflow: hidden; border-radius: 36px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 44px; display: inline-flex">
+                <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Secondary-Border-Default, #00D3B0); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Capacity Building</div>
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Train under-skilled women to become effective K–12 educators.<br/><br/>Conduct fellowships and workshops in pedagogy, classroom management, and emotional intelligence.</div>
+            </div>
+            <div style="flex: 1 1 0; align-self: stretch; padding-left: 26px; padding-right: 26px; padding-top: 41px; padding-bottom: 41px; background: linear-gradient(180deg, var(--Primary-Surface-Elevated, #6C38B1) 26%, var(--Primary-Surface-Default, #542C8A) 100%); overflow: hidden; border-radius: 36px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 44px; display: inline-flex">
+                <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Secondary-Border-Default, #00D3B0); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Neurodiverse Support</div>
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Offer tailored programs for children with ASD and ADHD.<br/><br/>Facilitate smoother integration into mainstream education.</div>
+            </div>
+            <div style="flex: 1 1 0; align-self: stretch; padding-left: 26px; padding-right: 26px; padding-top: 41px; padding-bottom: 41px; background: linear-gradient(180deg, var(--Primary-Surface-Elevated, #6C38B1) 26%, var(--Primary-Surface-Default, #542C8A) 100%); overflow: hidden; border-radius: 36px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 44px; display: inline-flex">
+                <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Secondary-Border-Default, #00D3B0); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Collaboration<br/></div>
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Develop digital platforms for educators to share insights and innovations.<br/><br/>Publish research, case studies, and policy recommendations.</div>
+            </div>
+            <div style="flex: 1 1 0; align-self: stretch; padding-left: 26px; padding-right: 26px; padding-top: 41px; padding-bottom: 41px; background: linear-gradient(180deg, var(--Primary-Surface-Elevated, #6C38B1) 26%, var(--Primary-Surface-Default, #542C8A) 100%); overflow: hidden; border-radius: 36px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 44px; display: inline-flex">
+                <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Secondary-Border-Default, #00D3B0); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Advocacy<br/></div>
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Negative, white); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Promote emotional intelligence using the EmEco model and Emotional Intelligence Index (EII).<br/><br/>Partner with schools, NGOs, and corporates for awareness, training, and systemic change.</div>
+            </div>
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 64px; padding-bottom: 64px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="flex: 1 1 0; padding-left: 64px; padding-right: 64px; padding-top: 10px; padding-bottom: 10px; background: var(--Caribbean-Green-50, #B9FFF3); overflow: hidden; border-radius: 36px; justify-content: center; align-items: center; gap: 82px; display: flex">
+            <div style="flex: 1 1 0; padding-top: 64px; padding-bottom: 64px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 42px; display: inline-flex">
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Our Story</div>
+                <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 23px; font-family: Manrope; font-weight: 600; line-height: 34.50px; word-wrap: break-word">EdBlume was born from decades of classroom experience and leadership in education. We saw dedicated teachers pushed to burnout, neurodiverse learners struggling to keep up, and parents left without guidance.<br/><br/>The education system was moving too fast to pause and care. We created EdBlume to slow it down—to bring back empathy, to support those who teach and learn differently, and to remind everyone that no child should be left behind.<br/>        </div>
+            </div>
+            <img style="width: 492px; height: 539px; border-radius: 36px" src="https://placehold.co/492x539" />
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 64px; padding-bottom: 64px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 64px; display: flex">
+        <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 42px; display: flex">
+            <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Meet our Team</div>
+        </div>
+        <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: flex">
+            <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 92px; display: inline-flex">
+                <img style="width: 323px; height: 391px; position: relative; background: #F6F6F6; border-radius: 36px" src="https://placehold.co/323x391" />
+                <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 42px; display: inline-flex">
+                    <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Indrani Singh</div>
+                    <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">To build emotionally resilient, inclusive learning communities by empowering educators, uplifting neurodiverse learners, and bridging skill gaps through collaborative research and training.<br/><br/></span><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 700; line-height: 30.40px; word-wrap: break-word">We aim to reshape systems from within—one teacher, one child, one institution at a time.</span></div>
+                </div>
+            </div>
+            <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 92px; display: inline-flex">
+                <img style="width: 323px; height: 391px; position: relative; background: #F6F6F6; border-radius: 36px" src="https://placehold.co/323x391" />
+                <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 42px; display: inline-flex">
+                    <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Rajiv Ranjan Singh</div>
+                    <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">To build emotionally resilient, inclusive learning communities by empowering educators, uplifting neurodiverse learners, and bridging skill gaps through collaborative research and training.<br/><br/></span><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 19px; font-family: Helvetica; font-weight: 700; line-height: 30.40px; word-wrap: break-word">We aim to reshape systems from within—one teacher, one child, one institution at a time.</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 64px; padding-bottom: 64px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 64px; display: flex">
+        <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 42px; display: flex">
+            <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Events & Media</div>
+        </div>
+        <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 56px; display: inline-flex">
+            <div style="flex: 1 1 0; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <div style="width: 121px; height: 121px; position: relative; background: var(--Secondary-Surface-Default, #00D3B0); overflow: hidden; border-radius: 106px">
+                    <img style="width: 58px; height: 58px; left: 31.17px; top: 32px; position: absolute" src="https://placehold.co/58x58" />
+                </div>
+                <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 42px; display: flex">
+                    <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 28px; font-family: Manrope; font-weight: 400; line-height: 42px; word-wrap: break-word">Podcast Series featuring educator journeys</div>
+                </div>
+            </div>
+            <div style="flex: 1 1 0; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <div style="width: 121px; height: 121px; position: relative; background: var(--Secondary-Surface-Default, #00D3B0); overflow: hidden; border-radius: 106px">
+                    <img style="width: 62px; height: 62px; left: 29.50px; top: 30px; position: absolute" src="https://placehold.co/62x62" />
+                </div>
+                <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 42px; display: flex">
+                    <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 28px; font-family: Manrope; font-weight: 400; line-height: 42px; word-wrap: break-word">Workshops on Change (e.g., Manickjee Cooper School)</div>
+                </div>
+            </div>
+            <div style="flex: 1 1 0; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <div style="width: 121px; height: 121px; position: relative; background: var(--Secondary-Surface-Default, #00D3B0); overflow: hidden; border-radius: 106px">
+                    <img style="width: 50px; height: 50px; left: 35.83px; top: 36px; position: absolute" src="https://placehold.co/50x50" />
+                </div>
+                <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 42px; display: flex">
+                    <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 28px; font-family: Manrope; font-weight: 400; line-height: 42px; word-wrap: break-word">EmLab School Visits – Emotional Ecology in action</div>
+                </div>
+            </div>
+        </div>
+        <div style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Primary-Border-Elevated, #6C38B1); font-size: 40px; font-family: Helvetica; font-weight: 700; line-height: 30.40px; word-wrap: break-word">Coming Soon!</div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 64px; padding-bottom: 64px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; justify-content: center; align-items: center; gap: 92px; display: inline-flex">
+        <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 27px; display: inline-flex">
+            <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Volunteer With Us</div>
+            <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 23px; font-family: Manrope; font-weight: 600; line-height: 34.50px; word-wrap: break-word">Help us uncover hidden potential in communities by contributing your time and talent.<br/><br/>Opportunities include:<br/></span><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 23px; font-family: Manrope; font-weight: 600; line-height: 34.50px; word-wrap: break-word">Data analysis<br/>Research assistance<br/>Community fieldwork<br/>Internships<br/></span><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 23px; font-family: Manrope; font-weight: 600; line-height: 34.50px; word-wrap: break-word"><br/>Volunteers receive a certificate of participation and real-world impact experience.      </span></div>
+            <div data-property-1="Primary" style="padding-left: 36px; padding-right: 36px; padding-top: 12px; padding-bottom: 12px; background: linear-gradient(150deg, var(--Primary-Surface-Subtle, #8554C8) 32%, var(--Primary-Surface-Default, #542C8A) 100%); border-radius: 12px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Apply Here</div>
+            </div>
+        </div>
+        <img style="width: 554px; height: 635px; position: relative; background: #F6F6F6; border-radius: 36px" src="https://placehold.co/554x635" />
+    </div>
+    <div style="align-self: stretch; padding-top: 64px; padding-bottom: 90px; padding-left: 120px; padding-right: 120px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="flex: 1 1 0; padding-top: 42px; padding-bottom: 42px; padding-left: 28px; padding-right: 64px; background: var(--Meteorite-50, #CAB4E7); overflow: hidden; border-radius: 36px; justify-content: center; align-items: center; gap: 82px; display: flex">
+            <div style="flex: 1 1 0; justify-content: flex-start; align-items: center; gap: 34px; display: flex">
+                <img style="width: 98px; height: 98px" src="https://placehold.co/98x98" />
+                <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 11px; display: inline-flex">
+                    <div style="align-self: stretch; justify-content: center; display: flex; flex-direction: column"><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 28px; font-family: Manrope; font-weight: 800; line-height: 42px; word-wrap: break-word">Interested in helping us grow our impact?<br/></span><span style="color: var(--Greyscale-Text-Body, #222626); font-size: 23px; font-family: Manrope; font-weight: 600; line-height: 34.50px; word-wrap: break-word">We welcome donations, partnerships, and pro bono collaborations. Let’s nurture a future that values emotional well-being and academic excellence.</span></div>
+                </div>
+            </div>
+            <div data-property-1="Primary" style="padding-left: 36px; padding-right: 36px; padding-top: 12px; padding-bottom: 12px; background: linear-gradient(150deg, var(--Primary-Surface-Subtle, #8554C8) 32%, var(--Primary-Surface-Default, #542C8A) 100%); border-radius: 12px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Donor Interest Form</div>
+            </div>
+        </div>
+    </div>
+    <div style="align-self: stretch; padding-left: 120px; padding-right: 120px; padding-top: 32px; padding-bottom: 32px; background: var(--Greyscale-Surface-Default, white); box-shadow: 0px -2px 16.299999237060547px rgba(0, 0, 0, 0.15); overflow: hidden; justify-content: space-between; align-items: flex-start; display: inline-flex">
+        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 88px; display: inline-flex">
+            <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 23px; display: flex">
+                <div style="justify-content: center; display: flex; flex-direction: column"><span style="color: #00A085; font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word">Discover</span><span style="color: black; font-size: 40px; font-family: Manrope; font-weight: 600; line-height: 60px; word-wrap: break-word"> Hidden Potential.</span></div>
+                <div style="width: 306.83px; height: 53.21px; text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Title, #0A0B0B); font-size: 65.29px; font-family: Manrope; font-weight: 600; line-height: 26.93px; word-wrap: break-word">EdBlume</div>
+                <div style="width: 34.27px; height: 39.13px; background: #8554C8"></div>
+                <div style="width: 34.90px; height: 60.94px; background: #ECDEFF"></div>
+                <div style="width: 40.35px; height: 27.04px; background: #00A085"></div>
+                <div style="width: 34.89px; height: 60.94px; background: #DBC3FB"></div>
+                <div style="width: 40.36px; height: 27.04px; background: #00D3B0"></div>
+                <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Body, #222626); font-size: 14.94px; font-family: Manrope; font-weight: 600; line-height: 26.93px; word-wrap: break-word">Research Foundation</div>
+            </div>
+            <div style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 3px; display: flex">
+                <div style="width: 346px; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">We’d love to hear from schools, NGOs, professionals, and volunteers.<br/></div>
+                <div style="width: 346px; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">indrani@edblume.com</div>
+                <div style="width: 346px; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">linkedin.com/</div>
+            </div>
+        </div>
+        <div style="width: 500px; max-width: 500px; padding: 24px; background: var(--Greyscale-Surface-Elevated, #D4D9D9); overflow: hidden; border-radius: 36px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 32px; display: inline-flex">
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+                <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                    <div style="flex: 1 1 0; padding-left: 16px; padding-right: 16px; padding-top: 11px; padding-bottom: 11px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
+                        <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Disabled, #6A7777); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">First Name</div>
+                    </div>
+                    <div style="flex: 1 1 0; padding-left: 16px; padding-right: 16px; padding-top: 11px; padding-bottom: 11px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
+                        <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Disabled, #6A7777); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Last Name</div>
+                    </div>
+                </div>
+                <div style="align-self: stretch; padding-left: 16px; padding-right: 16px; padding-top: 11px; padding-bottom: 11px; background: var(--Greyscale-Surface-Default, white); overflow: hidden; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Disabled, #6A7777); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Email address</div>
+                </div>
+                <div style="align-self: stretch; height: 154px; position: relative; background: var(--Greyscale-Surface-Default, white); overflow: hidden">
+                    <div style="padding: 10px; left: 6px; top: 1px; position: absolute; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div style="justify-content: center; display: flex; flex-direction: column; color: var(--Greyscale-Text-Disabled, #6A7777); font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">What do you need assistance with?</div>
+                    </div>
+                </div>
+            </div>
+            <div data-property-1="Primary" style="align-self: stretch; padding-left: 36px; padding-right: 36px; padding-top: 12px; padding-bottom: 12px; background: linear-gradient(150deg, var(--Primary-Surface-Subtle, #8554C8) 32%, var(--Primary-Surface-Default, #542C8A) 100%); border-radius: 12px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 19px; font-family: Helvetica; font-weight: 400; line-height: 30.40px; word-wrap: break-word">Submit</div>
+            </div>
+        </div>
+    </div>
+</div>

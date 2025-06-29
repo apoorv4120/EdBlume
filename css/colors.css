@@ -1,0 +1,17 @@
+:root {
+    --color-primary: #6366f1; /* Indigo */
+    --color-secondary: #06b6d4; /* Cyan */
+    --color-accent: #f43f5e; /* Red/Pink */
+    --color-purple: #a21caf; /* Purple */
+    --primary: #8b5cf6; /* Primary Purple */
+    --primary-dark: #7c3aed; /* Darker Purple */
+    --color-bg-light: #fafbfc;
+    --color-bg-gradient-1: linear-gradient(90deg, #e0e7ff 0%, #f0fdfa 100%);
+    --color-bg-gradient-2: linear-gradient(90deg, #fca5a5 0%, #fbcfe8 100%);
+    --color-bg-gradient-3: linear-gradient(90deg, #a5b4fc 0%, #f0abfc 100%);
+    --color-bg-gradient-4: linear-gradient(90deg, #f0abfc 0%, #a5b4fc 100%);
+    --color-text-main: #222;
+    --color-text-light: #fff;
+    --color-card-bg: #D8FFF8;
+    --color-card-shadow: 0 4px 16px rgba(0,0,0,0.07);
+} 

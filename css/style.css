@@ -108,17 +108,17 @@ body, p, ul, li, a, button, input, textarea {
 }
 
 .btn.primary {
-    background: linear-gradient(150deg, var(--primary) 32%, var(--primary-dark) 100%);
+    background: linear-gradient(150deg, var(--secondary-light) 32%, var(--secondary) 100%);
     color: #fff;
-    border: 2px solid var(--primary);
-    box-shadow: 0 4px 15px rgba(133, 84, 200, 0.3);
+    border: 2px solid var(--secondary);
+    box-shadow: 0 4px 15px rgba(0, 160, 133, 0.3);
 }
 
 .btn.primary:hover {
-    background: var(--primary-dark);
-    border-color: var(--primary-dark);
+    background: var(--secondary);
+    border-color: var(--secondary);
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(133, 84, 200, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 160, 133, 0.4);
 }
 
 .btn.secondary {
@@ -161,16 +161,20 @@ body, p, ul, li, a, button, input, textarea {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 1);
   backdrop-filter: blur(10px);
-  padding: 1.5rem 7.5vw;
+  padding: 1rem 7.5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  transition: transform var(--transition-medium);
+  transition: transform var(--transition-medium), background-color var(--transition-medium);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   min-height: 85px;
+}
+
+.header.scrolled {
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .header.nav-hidden {
@@ -260,7 +264,7 @@ header {
     padding: 1.5rem 0 1rem 0;
 }
 .hero {
-    padding: 10vh 7.5vw 8vh 7.5vw;
+    padding: 10vh 7.5vw 0 7.5vw;
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
     text-align: center;
     position: relative;
@@ -270,6 +274,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 0 0 60px 60px;
+    clip-path: ellipse(120% 100% at 50% 0%);
+    box-shadow: inset 0 -20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .hero::before {
@@ -305,113 +312,142 @@ header {
 
 
 
+/* Translucent Tulip Petals in Corners */
 .petal-animation {
     position: absolute;
-    width: 700px;
-    height: 700px;
-    opacity: 0.8;
+    width: 600px;
+    height: 600px;
+    opacity: 0.7;
     pointer-events: none;
-    z-index: 3;
+    z-index: 2;
 }
 
 .petal-group-1 {
-    top: -200px;
-    right: -150px;
+    top: -150px;
+    right: -100px;
     animation: organicFloat1 20s ease-in-out infinite;
 }
 
 .petal-group-2 {
-    bottom: -180px;
-    left: -150px;
-    width: 600px;
-    height: 600px;
-    opacity: 0.7;
+    bottom: -150px;
+    left: -100px;
+    width: 500px;
+    height: 500px;
+    opacity: 0.6;
     animation: organicFloat2 25s ease-in-out infinite;
     animation-delay: -10s;
 }
 
 .organic-petal {
     position: absolute;
-    background: linear-gradient(135deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.5) 100%);
+    background: linear-gradient(135deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.3) 100%);
     border-radius: 50% 80% 60% 70%;
     backdrop-filter: blur(2px);
     animation: organicBreath 12s ease-in-out infinite;
-    box-shadow: 0 4px 20px rgba(255,255,255,0.3);
+    box-shadow: 0 4px 20px rgba(255,255,255,0.2);
 }
 
 .petal-group-1 .petal-a {
-    width: 280px;
-    height: 380px;
+    width: 250px;
+    height: 350px;
     top: 50px;
-    left: 100px;
+    left: 80px;
     transform: rotate(-25deg);
     animation-delay: 0s;
-    border-radius: 60% 40% 80% 20%;
 }
 
 .petal-group-1 .petal-b {
-    width: 320px;
-    height: 420px;
-    top: 20px;
-    left: 200px;
-    transform: rotate(35deg);
-    animation-delay: 2s;
-    border-radius: 40% 60% 30% 70%;
+    width: 180px;
+    height: 280px;
+    top: 200px;
+    left: 250px;
+    transform: rotate(45deg);
+    animation-delay: -3s;
 }
 
 .petal-group-1 .petal-c {
-    width: 240px;
-    height: 330px;
+    width: 120px;
+    height: 200px;
     top: 100px;
-    left: 320px;
-    transform: rotate(65deg);
-    animation-delay: 4s;
-    border-radius: 70% 30% 60% 40%;
-}
-
-.petal-group-1 .petal-d {
-    width: 260px;
-    height: 350px;
-    top: 150px;
-    left: 150px;
-    transform: rotate(-50deg);
-    animation-delay: 6s;
-    border-radius: 50% 50% 80% 20%;
+    left: 350px;
+    transform: rotate(-60deg);
+    animation-delay: -6s;
 }
 
 .petal-group-2 .petal-a {
-    width: 220px;
-    height: 290px;
-    top: 70px;
+    width: 200px;
+    height: 300px;
+    bottom: 80px;
     left: 50px;
-    transform: rotate(15deg);
-    animation-delay: 1s;
-    border-radius: 80% 20% 60% 40%;
+    transform: rotate(35deg);
+    animation-delay: -2s;
 }
 
 .petal-group-2 .petal-b {
-    width: 260px;
-    height: 320px;
-    top: 40px;
-    left: 140px;
-    transform: rotate(-45deg);
-    animation-delay: 3s;
-    border-radius: 30% 70% 50% 50%;
+    width: 160px;
+    height: 240px;
+    bottom: 150px;
+    left: 200px;
+    transform: rotate(-40deg);
+    animation-delay: -5s;
 }
 
 .petal-group-2 .petal-c {
-    width: 200px;
-    height: 270px;
-    top: 120px;
-    left: 200px;
-    transform: rotate(55deg);
-    animation-delay: 5s;
-    border-radius: 60% 40% 70% 30%;
+    width: 100px;
+    height: 160px;
+    bottom: 50px;
+    left: 300px;
+    transform: rotate(70deg);
+    animation-delay: -8s;
 }
 
+@keyframes heroBackgroundFloat {
+    0%, 100% { 
+        transform: translate(0, 0) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    25% { 
+        transform: translate(25px, -20px) rotate(45deg) scale(1.15);
+        opacity: 0.8;
+    }
+    50% { 
+        transform: translate(-15px, 15px) rotate(90deg) scale(0.9);
+        opacity: 1.2;
+    }
+    75% { 
+        transform: translate(20px, -25px) rotate(135deg) scale(1.1);
+        opacity: 0.9;
+    }
+}
 
+@keyframes innovationFloat {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-15px) rotate(2deg);
+    }
+}
 
+@keyframes radiationPulse {
+    0%, 100% {
+        opacity: 0.6;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
 
+@keyframes lightbulbGlow {
+    0%, 100% {
+        filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.3));
+    }
+    50% {
+        filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.6));
+    }
+}
 
 @keyframes organicFloat1 {
     0%, 100% { 
@@ -446,7 +482,7 @@ header {
         opacity: 0.4;
     }
     90% { 
-        transform: translateY(-15px) translateX(-10px) rotate(3deg) scale(1.03);
+        transform: translateY(20px) translateX(-10px) rotate(12deg) scale(1.03);
         opacity: 0.55;
     }
 }
@@ -454,42 +490,15 @@ header {
 @keyframes organicBreath {
     0%, 100% { 
         transform: scale(1) rotate(0deg);
-        opacity: 0.4;
-    }
-    20% { 
-        transform: scale(1.08) rotate(2deg);
         opacity: 0.6;
     }
-    40% { 
-        transform: scale(0.95) rotate(-3deg);
-        opacity: 0.3;
-    }
-    60% { 
-        transform: scale(1.12) rotate(4deg);
-        opacity: 0.7;
-    }
-    80% { 
-        transform: scale(1.02) rotate(-1deg);
-        opacity: 0.5;
-    }
-}
-
-@keyframes heroBackgroundFloat {
-    0%, 100% { 
-        transform: translate(0, 0) rotate(0deg) scale(1);
-        opacity: 1;
-    }
-    25% { 
-        transform: translate(25px, -20px) rotate(45deg) scale(1.15);
+    33% { 
+        transform: scale(1.15) rotate(2deg);
         opacity: 0.8;
     }
-    50% { 
-        transform: translate(-15px, 15px) rotate(90deg) scale(0.9);
-        opacity: 1.2;
-    }
-    75% { 
-        transform: translate(20px, -25px) rotate(135deg) scale(1.1);
-        opacity: 0.9;
+    66% { 
+        transform: scale(0.9) rotate(-1deg);
+        opacity: 0.4;
     }
 }
 .hero h1 {
@@ -503,6 +512,11 @@ header {
     z-index: 4;
     letter-spacing: -0.02em;
     text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.discover-highlight {
+    color: white;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 .hero-subtitle {
@@ -536,12 +550,312 @@ header {
 .hero-buttons {
     display: flex;
     gap: 1.5rem;
-    justify-content: center;
+    justify-content: flex-start;
     position: relative;
     z-index: 4;
     flex-wrap: wrap;
 }
 
+/* Two Column Hero Layout */
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.hero-text-column {
+    flex: 1;
+    text-align: left;
+    max-width: 500px;
+}
+
+.hero-svg-column {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Innovation Icon Styles */
+.hero-innovation-icon {
+    position: relative;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.innovation-svg {
+    width: 350px;
+    height: 420px;
+    animation: innovationFloat 4s ease-in-out infinite;
+}
+
+.radiation-lines {
+    animation: radiationPulse 3s ease-in-out infinite;
+    transform-origin: 100px 85px;
+}
+
+.lightbulb {
+    animation: lightbulbGlow 2.5s ease-in-out infinite;
+}
+
+.supporting-hands {
+    transition: transform 0.3s ease;
+}
+
+/* Hero Images Collage */
+.hero-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 140%;
+    height: 100vh;
+    overflow: visible;
+    pointer-events: auto;
+    z-index: 4;
+    transform: translateX(-15%) translateY(-45%);
+}
+
+.hero-image-item {
+    position: absolute;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 4px 12px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s ease;
+    opacity: 0;
+    transform: scale(0.8) rotate(0deg);
+    z-index: 1;
+    pointer-events: auto;
+}
+
+.hero-image-item:hover {
+    box-shadow: 0 16px 50px rgba(0, 0, 0, 0.2), 0 8px 20px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+
+.hero-image-item:hover .hero-img {
+    transform: scale(1.08);
+}
+
+/* Collage positioning with overlapping layout - MORE SPREAD OUT & BALANCED */
+.collage-img-1 {
+    width: 380px;
+    height: 250px;
+    top: 8%;
+    left: 15%;
+    z-index: 5;
+    animation: floatIn1 2s ease-out 0.5s forwards, floatMove1 8s ease-in-out 2.5s infinite;
+    cursor: pointer;
+    transition: z-index 0.3s ease;
+}
+
+.collage-img-2 {
+    width: 280px;
+    height: 380px;
+    top: 55%;
+    right: 5%;
+    z-index: 4;
+    animation: floatIn2 2s ease-out 1s forwards, floatMove2 10s ease-in-out 3s infinite;
+    cursor: pointer;
+    transition: z-index 0.3s ease;
+}
+
+.collage-img-3 {  
+    width: 350px;
+    height: 230px;
+    top: 35%;
+    right: 5%;
+    z-index: 3;
+    animation: floatIn3 2s ease-out 1.5s forwards, floatMove3 12s ease-in-out 3.5s infinite;
+    cursor: pointer;
+    transition: z-index 0.3s ease;
+}
+
+.collage-img-4 {
+    width: 300px;
+    height: 380px;
+    top: 62%;
+    left: 18%;
+    z-index: 2;
+    animation: floatIn4 2s ease-out 2s forwards, floatMove4 9s ease-in-out 4s infinite;
+    cursor: pointer;
+    transition: z-index 0.3s ease;
+}
+
+/* .collage-img-5 {
+    width: 320px;
+    height: 210px;
+    top: 85%;
+    right: 12%;
+    z-index: 6;
+    animation: floatIn5 2s ease-out 2.5s forwards, floatMove5 11s ease-in-out 4.5s infinite;
+    cursor: pointer;
+    transition: z-index 0.3s ease;
+} */
+
+.collage-img-6 {
+    width: 260px;
+    height: 340px;
+    top: 12%;
+    left: 65%;
+    z-index: 3;
+    animation: floatIn6 2s ease-out 3s forwards, floatMove6 9s ease-in-out 5s infinite;
+    cursor: pointer;
+    transition: z-index 0.3s ease;
+}
+
+.collage-img-7 {
+    width: 300px;
+    height: 200px;
+    top: 55%;
+    right: 35%;
+    z-index: 4;
+    animation: floatIn7 2s ease-out 3.5s forwards, floatMove7 10s ease-in-out 5.5s infinite;
+    cursor: pointer;
+    transition: z-index 0.3s ease;
+}
+
+.collage-img-8 {
+    width: 220px;
+    height: 300px;
+    top: 28%;
+    right: 48%;
+    z-index: 2;
+    animation: floatIn8 2s ease-out 4s forwards, floatMove8 12s ease-in-out 6s infinite;
+    cursor: pointer;
+    transition: z-index 0.3s ease;
+}
+
+/* Float-in animations */
+@keyframes floatIn1 {
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(-3deg);
+    }
+}
+
+@keyframes floatIn2 {
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(5deg);
+    }
+}
+
+@keyframes floatIn3 {
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(-2deg);
+    }
+}
+
+@keyframes floatIn4 {
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(4deg);
+    }
+}
+
+@keyframes floatIn5 {
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(-1deg);
+    }
+}
+
+@keyframes floatIn6 {
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(-4deg);
+    }
+}
+
+@keyframes floatIn7 {
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(3deg);
+    }
+}
+
+@keyframes floatIn8 {
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(-2deg);
+    }
+}
+
+/* Floating movement animations */
+@keyframes floatMove1 {
+    0%, 100% { transform: scale(1) rotate(-3deg) translateY(0px) translateX(0px); }
+    25% { transform: scale(1.02) rotate(-1deg) translateY(-8px) translateX(3px); }
+    50% { transform: scale(0.98) rotate(-4deg) translateY(-5px) translateX(-2px); }
+    75% { transform: scale(1.01) rotate(-2deg) translateY(-10px) translateX(4px); }
+}
+
+@keyframes floatMove2 {
+    0%, 100% { transform: scale(1) rotate(5deg) translateY(0px) translateX(0px); }
+    30% { transform: scale(0.98) rotate(7deg) translateY(-12px) translateX(-3px); }
+    60% { transform: scale(1.03) rotate(3deg) translateY(-6px) translateX(5px); }
+    90% { transform: scale(0.99) rotate(6deg) translateY(-8px) translateX(-1px); }
+}
+
+@keyframes floatMove3 {
+    0%, 100% { transform: scale(1) rotate(-2deg) translateY(0px) translateX(0px); }
+    20% { transform: scale(1.01) rotate(0deg) translateY(-6px) translateX(2px); }
+    40% { transform: scale(0.97) rotate(-4deg) translateY(-10px) translateX(-4px); }
+    80% { transform: scale(1.02) rotate(-1deg) translateY(-4px) translateX(3px); }
+}
+
+@keyframes floatMove4 {
+    0%, 100% { transform: scale(1) rotate(4deg) translateY(0px) translateX(0px); }
+    35% { transform: scale(0.99) rotate(6deg) translateY(-9px) translateX(-2px); }
+    65% { transform: scale(1.01) rotate(2deg) translateY(-7px) translateX(4px); }
+    85% { transform: scale(0.98) rotate(5deg) translateY(-11px) translateX(-1px); }
+}
+
+@keyframes floatMove5 {
+    0%, 100% { transform: scale(1) rotate(-1deg) translateY(0px) translateX(0px); }
+    25% { transform: scale(1.03) rotate(1deg) translateY(-5px) translateX(-3px); }
+    50% { transform: scale(0.96) rotate(-3deg) translateY(-12px) translateX(2px); }
+    75% { transform: scale(1.01) rotate(0deg) translateY(-8px) translateX(-4px); }
+}
+
+@keyframes floatMove6 {
+    0%, 100% { transform: scale(1) rotate(-4deg) translateY(0px) translateX(0px); }
+    30% { transform: scale(0.97) rotate(-6deg) translateY(-10px) translateX(3px); }
+    60% { transform: scale(1.02) rotate(-2deg) translateY(-7px) translateX(-2px); }
+    90% { transform: scale(0.99) rotate(-5deg) translateY(-9px) translateX(4px); }
+}
+
+@keyframes floatMove7 {
+    0%, 100% { transform: scale(1) rotate(3deg) translateY(0px) translateX(0px); }
+    25% { transform: scale(1.01) rotate(5deg) translateY(-6px) translateX(-3px); }
+    50% { transform: scale(0.98) rotate(1deg) translateY(-11px) translateX(2px); }
+    75% { transform: scale(1.03) rotate(4deg) translateY(-8px) translateX(-1px); }
+}
+
+@keyframes floatMove8 {
+    0%, 100% { transform: scale(1) rotate(-2deg) translateY(0px) translateX(0px); }
+    35% { transform: scale(0.96) rotate(-4deg) translateY(-13px) translateX(5px); }
+    65% { transform: scale(1.04) rotate(0deg) translateY(-5px) translateX(-4px); }
+    85% { transform: scale(1.00) rotate(-3deg) translateY(-10px) translateX(3px); }
+}
 
 .about {
     padding: 5rem 7.5vw;
@@ -1220,16 +1534,7 @@ header {
     position: relative;
 }
 
-.story-text h2::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 80px;
-    height: 4px;
-    background: #fff;
-    border-radius: 2px;
-}
+
 .story-text p {
     font-size: 23px;
     font-family: Helvetica, Arial, sans-serif;
@@ -2378,6 +2683,16 @@ header {
         font-size: 2.2rem;
         line-height: 1.3;
     }
+    
+    .hero-content {
+        gap: 2rem;
+        padding: 0 1.5rem;
+    }
+    
+    .innovation-svg {
+        width: 280px;
+        height: 336px;
+    }
     .what-we-do {
         padding: 0;
     }
@@ -2662,24 +2977,31 @@ header {
         padding: 60px 16px 40px 16px;
     }
     .petal-group-1 {
-        right: -60px;
-        top: -100px;
-        width: 380px;
-        height: 380px;
+        right: -40px;
+        top: -80px;
+        width: 280px;
+        height: 280px;
     }
     .petal-group-2 {
-        left: -80px;
-        bottom: -80px;
-        width: 320px;
-        height: 320px;
+        display: none; /* Hide second petal group on mobile for performance */
     }
     .hero h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         line-height: 1.2;
     }
     .hero-subtitle {
         font-size: 1.6rem;
         line-height: 1.3;
+    }
+    
+    .hero-content {
+        gap: 1.5rem;
+        padding: 0 0.5rem;
+    }
+    
+    .innovation-svg {
+        width: 180px;
+        height: 216px;
     }
     .hero-belief {
         font-size: 22px;
@@ -2688,7 +3010,33 @@ header {
     .hero-buttons {
         flex-direction: column;
         gap: 16px;
+        align-items: center;
     }
+    
+    .hero-buttons .btn {
+        width: auto;
+        min-width: 140px;
+        max-width: 200px;
+    }
+    
+    .hero-content {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+    
+    .hero-text-column {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .innovation-svg {
+        width: 220px;
+        height: 264px;
+    }
+    
+    /* Mobile collage adjustments - IMAGES VISIBLE ON TABLET */
+    
     .what-we-do {
         padding: 0;
     }
@@ -3036,7 +3384,7 @@ header {
     }
     
     .logo img {
-        max-width: 120px;
+        max-width: 240px;
         height: auto;
     }
     
@@ -3242,6 +3590,11 @@ header {
 }
 
 @media (max-width: 800px) {
+    /* Hide hero images on mobile devices */
+    .hero-images {
+        display: none;
+    }
+    
     .hamburger-menu {
         display: flex;
     }
@@ -3303,13 +3656,13 @@ header {
         margin: 0 1rem;
     }
     .petal-group-1 {
-        right: -40px;
-        top: -80px;
-        width: 280px;
-        height: 280px;
+        right: -30px;
+        top: -60px;
+        width: 200px;
+        height: 200px;
     }
     .petal-group-2 {
-        display: none; /* Hide second petal group on very small screens */
+        display: none; /* Hide second petal group on smallest screens */
     }
     .hero h1 {
         font-size: 1.8rem;

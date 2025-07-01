@@ -2093,20 +2093,34 @@ header {
 }
 
 @media (max-width: 700px) {
-    .story-full {
+    /* Story section: always show full content, no accordion */
+    .our-story .story-full {
+        display: block !important;
+    }
+    
+    .our-story .story-more-btn {
         display: none !important;
     }
     
-    .story-more-btn {
+    .our-story .story-text {
+        text-align: left;
+    }
+    
+    /* Team section: keep accordion functionality */
+    .team-bio .bio-full {
+        display: none !important;
+    }
+    
+    .team-bio .view-more-btn {
         display: inline-flex;
     }
     
-    .story-full {
+    .team-bio .bio-full {
         margin-top: 1rem;
     }
     
-    /* Enable gradient for collapsed content on mobile */
-    .story-bio .bio-excerpt::after {
+    /* Enable gradient for collapsed content on mobile - team section only */
+    .team-bio .bio-excerpt::after {
         content: '';
         position: absolute;
         bottom: 0;
@@ -2509,6 +2523,13 @@ header {
 .footer-contact a:hover {
     color: var(--primary-dark);
     text-decoration: underline;
+}
+.footer-contact-btn {
+    margin-top: 1.5rem;
+}
+.footer-contact-btn .btn {
+    font-size: 18px;
+    padding: 0.8rem 1.5rem;
 }
 .contact-form {
     display: flex;
@@ -2987,11 +3008,11 @@ header {
         display: none; /* Hide second petal group on mobile for performance */
     }
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 1.2;
     }
     .hero-subtitle {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         line-height: 1.3;
     }
     
@@ -3005,8 +3026,8 @@ header {
         height: 216px;
     }
     .hero-belief {
-        font-size: 22px;
-        line-height: 24px;
+        font-size: 18px;
+        line-height: 22px;
     }
     .hero-buttons {
         flex-direction: column;
@@ -3043,8 +3064,8 @@ header {
     }
     .what-we-do h2 {
         padding: 16px 36px 0;
-        font-size: 28px;
-        line-height: 42px;
+        font-size: 24px;
+        line-height: 36px;
         text-align: left;
     }
     
@@ -3062,15 +3083,15 @@ header {
         padding: 0 36px;
     }
     .program-num {
-        font-size: 60px;
+        font-size: 50px;
     }
     .program-title {
-        font-size: 42px;
-        line-height: 56px;
+        font-size: 36px;
+        line-height: 48px;
     }
     .program-desc {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 26px;
     }
     .program-content-layout {
         grid-template-columns: 1fr;
@@ -3084,12 +3105,12 @@ header {
         gap: 1rem;
     }
     .program-outcomes h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-bottom: 0.75rem;
     }
     .program-outcomes p {
-        font-size: 22px;
-        line-height: 24px;
+        font-size: 18px;
+        line-height: 22px;
     }
     .our-story {
         padding: 2rem 0;
@@ -3101,10 +3122,10 @@ header {
         gap: 32px;
     }
     .story-text p {
-        font-size: 22px;
-        line-height: 28.5px;
+        font-size: 18px;
+        line-height: 26px;
     }
-    /* Tablet section headings: standardize all to 32px */
+    /* Tablet section headings: standardize all to 28px */
     .story-text h2,
     .support-content h2,
     .events h2,
@@ -3113,8 +3134,8 @@ header {
     .focus-areas h2,
     .about-text h2,
     .framework-content h2 {
-        font-size: 32px;
-        line-height: 48px;
+        font-size: 28px;
+        line-height: 40px;
     }
     
     .support {
@@ -3139,8 +3160,8 @@ header {
         text-align: left;
     }
     .support-content p {
-        font-size: 22px;
-        line-height: 28.5px;
+        font-size: 18px;
+        line-height: 26px;
         margin: 0 0 1.5rem 0;
         color: white;
     }
@@ -3169,12 +3190,12 @@ header {
         padding: 5rem 1rem;
     }
     .mission-content h2 {
-        font-size: 32px;
-        line-height: 48px;
+        font-size: 28px;
+        line-height: 40px;
     }
     .mission-content p {
-        font-size: 22px;
-        line-height: 33px;
+        font-size: 18px;
+        line-height: 28px;
     }
     .featured-events {
         grid-template-columns: 1fr;
@@ -3192,12 +3213,12 @@ header {
     }
     
     .featured-event-content h3 {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.3;
     }
     
     .featured-event-content p {
-        font-size: 22px;
+        font-size: 16px;
         line-height: 1.4;
     }
 
@@ -3218,11 +3239,11 @@ header {
     }
     
     .event-card-content h4 {
-        font-size: 22px;
+        font-size: 18px;
     }
     
     .event-card-content p {
-        font-size: 22px;
+        font-size: 16px;
     }
     .volunteer {
         padding: 32px 16px;
@@ -3234,8 +3255,8 @@ header {
         /* Font size standardized above */
     }
     .volunteer-text p {
-        font-size: 22px;
-        line-height: 28.5px;
+        font-size: 18px;
+        line-height: 26px;
     }
     .volunteer-img {
         width: 100%;
@@ -3277,12 +3298,12 @@ header {
     
     .contact-form input,
     .contact-form textarea {
-        font-size: 22px;
+        font-size: 18px;
         padding: 1rem;
     }
     
     .contact-form button {
-        font-size: 22px;
+        font-size: 18px;
         padding: 1rem 2rem;
     }
     
@@ -3316,15 +3337,15 @@ header {
     }
     
     .support-content h2 {
-        font-size: 28px;
-        line-height: 42px;
+        font-size: 24px;
+        line-height: 36px;
         margin: 0 0 1rem 0;
         color: white;
     }
     
     .support-content p {
-        font-size: 22px;
-        line-height: 24px;
+        font-size: 18px;
+        line-height: 26px;
         margin: 0 0 1.5rem 0;
         color: white;
     }
@@ -3385,7 +3406,7 @@ header {
     }
     
     .logo img {
-        max-width: 240px;
+        max-width: 120px;
         height: auto;
     }
     
@@ -3654,7 +3675,6 @@ header {
 @media (max-width: 480px) {
     .hero {
         padding: 60px 1rem 40px 1rem;
-        margin: 0 1rem;
     }
     .petal-group-1 {
         right: -30px;
@@ -3676,11 +3696,9 @@ header {
     .header, .framework, .focus-areas, .team, .events {
         padding-left: 1rem;
         padding-right: 1rem;
-        margin: 2rem 1rem;
     }
     .about {
         padding: 2rem 1rem;
-        margin: 1rem 0;
     }
     .about-container {
         flex-direction: column;
@@ -3688,7 +3706,6 @@ header {
     }
     .our-story {
         padding: 2rem 0;
-        margin: 2rem 1rem;
     }
     .story-content {
         padding: 0 1rem;
@@ -3697,9 +3714,12 @@ header {
         flex-direction: column;
         gap: 2rem;
     }
+    
+    .story-text {
+        text-align: left;
+    }
     .what-we-do {
         padding: 0;
-        margin: 2rem 1rem;
     }
     /* Mobile section headings: standardize all to 28px */
     .what-we-do h2,
@@ -3718,7 +3738,6 @@ header {
     
     .mission {
         padding: 3rem 1rem;
-        margin: 1rem 0;
     }
     
     .mission-content h2::after {
@@ -3791,7 +3810,6 @@ header {
     }
     .support {
         padding: 2rem 1rem;
-        margin: 2rem 1rem;
     }
     .footer {
         padding: 1.5rem 1rem;
@@ -3921,8 +3939,8 @@ header {
         padding: 0 1rem;
     }
     
-    /* Show story accordion button only on mobile */
-    .story-more-btn {
+    /* Show team accordion button only on mobile - story section should always show full content */
+    .team-bio .view-more-btn {
         display: inline-flex;
     }
     

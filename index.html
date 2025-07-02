@@ -332,14 +332,11 @@
                     <h3>Dr. Indrani Singh</h3>
                     <div class="title">Founder & CEO</div>
                     <div class="team-bio">
-                        <p class="bio-excerpt">Dr. Indrani Singh is an educator, strategic leader, and social impact advocate with over 30 years of experience in teaching, institutional leadership, and educational research.</p>
-                        <div class="bio-full">
-                            <p>Holding a Ph.D. from the University of Tennessee, Knoxville, she brings academic rigor and a global perspective to her work.</p>
-                    <p>As a certified TBE (Transforming By Excellence) Assessor and Trainer, Dr. Singh specializes in academic excellence, institutional growth, and building emotionally resilient learning environments. Her Emotional Ecology framework explores the emotional and ecological factors influencing student success by bridging empathy with data-driven strategies.</p>
-                    <p>She previously served as Vice President of Institutional and Undergraduate Research at Saint Augustine's University, where she led major initiatives in strategic planning, accreditation, and data-informed decision-making.</p>
-                </div>
-                        <button class="view-more-btn" data-target="1">View More <span style="margin-left: 4px;">↓</span></button>
-            </div>
+                        <p>Dr. Indrani Singh is an educator, strategic leader, and social impact advocate with over 30 years of experience in teaching, institutional leadership, and educational research.</p>
+                        <p>Dr. Singh is academic strategist, transformational leader, and a mixed methods researcher with over three decades of experience spanning K 12 schools, and higher education. Holding a Ph.D. from the University of Tennessee, Knoxville, she brings academic rigor and a global perspective to her work.</p>
+                        <p>As a certified TBE (Transforming By Excellence) Assessor and Trainer, Dr. Singh specializes in academic excellence, institutional growth, and building emotionally resilient learning environments. Her Emotional Ecology framework explores the emotional and ecological factors influencing student success by bridging empathy with data-driven strategies.</p>
+                        <p>She previously served as Vice President of Institutional and Undergraduate Research at Saint Augustine's University, where she led major initiatives in strategic planning, accreditation, and data-informed decision-making.</p>
+                    </div>
                 </div>
             </div>
             <div class="team-member" data-team-member="2">
@@ -351,12 +348,9 @@
                     <h3>Rajiv Ranjan Singh</h3>
                     <div class="title">Co-Founder & COO</div>
                     <div class="team-bio">
-                        <p class="bio-excerpt">Rajiv Ranjan Singh superannuated from Tata Steel on April 1, 2025, as the Head of Steel Processing Centres, concluding an illustrious career spanning over three decades.</p>
-                        <div class="bio-full">
-                            <p>With 32 years of extensive experience in the steel industry, Mr. Singh has led key functions in Strategy, Projects, Supply Chain, Total Quality Management, and Operations.</p>
-                    <p>An engineering graduate in Electrical and Electronics from MIT Manipal, he is also a certified Supply Chain Applications Expert from the Goldratt School of Supply Chain. A seasoned business leader, Mr. Singh is known for driving operational excellence and transformational growth throughout his career.</p>
-                        </div>
-                        <button class="view-more-btn" data-target="2">View More <span style="margin-left: 4px;">↓</span></button>
+                        <p>Rajiv Ranjan Singh superannuated from Tata Steel on April 1, 2025, as the Head of Steel Processing Centres, concluding an illustrious career spanning over three decades.</p>
+                        <p>With 32 years of extensive experience in the steel industry, Mr. Singh has led key functions in Strategy, Projects, Supply Chain, Total Quality Management, and Operations.</p>
+                        <p>An engineering graduate in Electrical and Electronics from MIT Manipal, he is also a certified Supply Chain Applications Expert from the Goldratt School of Supply Chain. A seasoned business leader, Mr. Singh is known for driving operational excellence and transformational growth throughout his career.</p>
                     </div>
                 </div>
             </div>
@@ -510,7 +504,7 @@
                         <div class="thumbnail-data" 
                              data-date="9th January, 2025" 
                              data-title="Workshop" 
-                             data-desc="Interactive session at Maneckji Cooper ET School.">
+                             data-desc="Interactive session at KSMS Hindi School, Jamshedpur.">
                         </div>
                     </div>
                     
@@ -519,7 +513,7 @@
                         <div class="thumbnail-data" 
                              data-date="16th January, 2025" 
                              data-title="EmLab School Visit" 
-                             data-desc="EmLab Visit to K.S.M.S Hindi School, Jamshedpur">
+                             data-desc="EmLab Visit to Prem Jyoti Prangan School, Jamshedpur">
                         </div>
                     </div>
                     
@@ -528,16 +522,16 @@
                         <div class="thumbnail-data" 
                              data-date="3rd January, 2025" 
                              data-title="EmLab School Visit" 
-                             data-desc="EmLab Visit to Prem Jyoti Prangan School, Jamshedpur">
+                             data-desc="EmLab Visit to Loyola, Hindi School, Jamshedpur">
                         </div>
                     </div>
                     
                     <div class="thumbnail-item" data-index="11">
-                        <img src="images/Image 8.jpeg" alt="Technology Integration" class="thumbnail-img">
+                        <img src="images/image_24.jpeg" alt="Technology Integration" class="thumbnail-img">
                         <div class="thumbnail-data" 
                              data-date="28th March, 2025" 
                              data-title="Workshop" 
-                             data-desc="Workshop with English teachers on “Dialogic Reading and Conversation to Support Engagement, Vocabulary and Comprehension”.">
+                             data-desc="Workshop with English teachers on "Dialogic Reading and Conversation to Support Engagement, Vocabulary and Comprehension".">
                         </div>
                     </div>
                     
@@ -947,7 +941,7 @@
                     mainImg.alt = img.alt;
                     
                     // Update content
-                    mainEventDate.innerHTML = `<div class="event-date">${data.dataset.date}</div>`;
+                    mainEventDate.textContent = data.dataset.date;
                     mainEventTitle.textContent = data.dataset.title;
                     mainEventDesc.textContent = data.dataset.desc;
                     
@@ -1050,30 +1044,8 @@
             animateOnScroll();
         });
         
-        // Accordion Functionality - Simplified
-        function initAccordions() {
-            // Team accordion functionality - Only for mobile (≤700px)
-            const teamViewMoreBtns = document.querySelectorAll('.team-bio .view-more-btn');
-            
-            teamViewMoreBtns.forEach(btn => {
-                btn.addEventListener('click', function() {
-                    // Only work on mobile (≤700px)
-                    if (window.innerWidth > 700) return;
-                    
-                    const teamBio = this.parentElement;
-                    const isExpanded = teamBio.classList.contains('expanded');
-                    
-                    if (isExpanded) {
-                        teamBio.classList.remove('expanded');
-                        this.innerHTML = 'View More <span style="margin-left: 4px;">↓</span>';
-                    } else {
-                        teamBio.classList.add('expanded');
-                        this.innerHTML = 'View Less <span style="margin-left: 4px;">↑</span>';
-                    }
-                });
-            });
-            
-            // Story accordion functionality
+        // Story accordion functionality
+        function initStoryAccordion() {
             const storyViewMoreBtn = document.querySelector('.story-more-btn');
             if (storyViewMoreBtn) {
                 storyViewMoreBtn.addEventListener('click', function() {
@@ -1103,18 +1075,8 @@
         
         // Handle responsive display changes - Simplified
         function handleResponsiveDisplay() {
-            const teamBios = document.querySelectorAll('.team-bio');
-            const teamViewMoreBtns = document.querySelectorAll('.team-bio .view-more-btn');
-            
-            if (window.innerWidth > 700) {
-                // Desktop/Tablet: Reset all team accordion states
-                teamBios.forEach(teamBio => {
-                    teamBio.classList.remove('expanded');
-                });
-                teamViewMoreBtns.forEach(btn => {
-                    btn.innerHTML = 'View More <span style="margin-left: 4px;">↓</span>';
-                });
-            }
+            // Keep accordion state consistent across all screen sizes
+            // No need to reset states when switching between desktop/mobile
         }
 
         // Mobile-specific accordion display logic
@@ -1133,7 +1095,7 @@
             initDisplacementEffects();
             initHeroImageInteraction();
             initGalleryCarousel();
-            initAccordions();
+            initStoryAccordion();
             handleResponsiveDisplay();
             handleMobileAccordions();
         });
@@ -1159,5 +1121,8 @@
 
         window.addEventListener('scroll', updateOnScroll);
     </script>
+    
+    <!-- Team Accordion JavaScript -->
+    <script src="js/team-accordion.js"></script>
 </body>
 </html>

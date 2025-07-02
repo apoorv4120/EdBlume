@@ -1464,7 +1464,7 @@ header {
 
 .focus-card-text {
     color: #333;
-    font-size: 1rem;
+    font-size: 18px;
     line-height: 1.6;
     font-weight: 500;
 }
@@ -1667,469 +1667,21 @@ header {
 }
 
 .bio-excerpt {
-    display: none;
-}
-
-.bio-full {
-    display: block;
-}
-
-.view-more-btn {
-    display: none;
-    background: none;
-    color: var(--primary);
-    border: none;
-    padding: 0;
-    font-size: 22px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 1rem;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    align-self: flex-start;
-}
-
-.view-more-btn:hover {
-    color: var(--primary-dark);
-}
-
-/* Mobile: Image above text, accordion for content */
-@media (max-width: 700px) {
-    .team-member {
-        flex-direction: column;
-        min-height: auto;
-    }
-    
-    .team-img-container {
-        flex: 0 0 250px;
-        width: 100%;
-    }
-    
-    .team-info {
-        padding: 1.5rem;
-        text-align: left;
-    }
-    
-    .team-info h3 {
-        font-size: 24px;
-    }
-    
-    .team-info .title {
-        font-size: 22px;
-    }
-    
-    .team-bio {
-        font-size: 22px;
-        line-height: 1.6;
-    }
-    
-    .bio-excerpt {
-        display: block;
-    }
-    
-    .bio-full {
-        display: none;
-    }
-    
-    .view-more-btn {
-        display: inline-block;
-    }
-    
-    .team-bio.expanded .bio-full {
-        display: block;
-    }
-    
-    .team-bio.expanded .bio-excerpt {
-        display: none;
-    }
-}
-
-@media (max-width: 700px) {
-    .team {
-        padding: 2rem 1rem;
-    }
-    
-    .team-header h2 {
-        font-size: 32px;
-        line-height: 48px;
-        text-align: left;
-    }
-    
-    .team-header h2::after {
-        left: 0;
-        transform: none;
-    }
-    
-    .team-header {
-        text-align: left;
-        margin-bottom: 2rem;
-    }
-    
-    .team-subtitle {
-        font-size: 22px;
-    }
-    
-    .team-grid {
-        gap: 1.5rem;
-    }
-    
-    .team-member {
-        min-height: 350px;
-    }
-    
-    .team-img-container {
-        flex: 0 0 240px;
-    }
-    
-    .team-info {
-        padding: 1.5rem;
-    }
-    
-    .team-info h3 {
-        font-size: 22px;
-    }
-    
-    .team-info .title {
-        font-size: 22px;
-    }
-    
-    .team-bio .bio-excerpt,
-    .team-bio .bio-full {
-        font-size: 24px;
-        line-height: 1.5;
-    }
-    
-    .view-more-btn {
-        font-size: 22px;
-        margin-top: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .team-header h2 {
-        font-size: 28px;
-        line-height: 42px;
-    }
-    
-    .team-member {
-        min-height: 320px;
-    }
-    
-    .team-img-container {
-        flex: 0 0 200px;
-    }
-    
-    .team-info {
-        padding: 1rem;
-    }
-    
-    .team-info h3 {
-        font-size: 22px;
-    }
-}
-
-.events {
-    padding: 2.5rem 7.5vw;
-    background: #FFF;
-    box-sizing: border-box;
-}
-.events h2 {
-    font-size: 40px;
-    font-family: 'Manrope', Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    color: var(--greyscale-title);
-    line-height: 60px;
-    margin-bottom: 2.5rem;
-    position: relative;
-    text-align: center;
-}
-
-.events h2::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 4px;
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    border-radius: 2px;
-}
-.events-cards {
-    display: flex;
-    flex-direction: row;
-    gap: 3.5rem;
-    justify-content: center;
-    align-items: center;
-}
-.event-card {
-    flex: 1 1 280px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    text-align: center;
-    max-width: 300px;
-    min-height: auto;
-    height: auto;
-    transition: all var(--transition-medium);
-    background: linear-gradient(135deg, #ffffff 0%, #f0f4ff 100%);
-    border-radius: 24px;
-    padding: 2rem 1.5rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    position: relative;
-    overflow: hidden;
-    border: 2px solid transparent;
-    cursor: pointer;
-}
-.event-card:hover {
-    border-color: rgba(0, 211, 176, 0.2);
-}
-.event-icon {
-    width: min(121px, 15vw);
-    height: min(121px, 15vw);
-    background: var(--secondary-light);
-    border-radius: 106px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: clamp(24px, 4vw, 48px);
-    color: #2D539C;
-    transition: transform var(--transition-medium), background-color var(--transition-medium);
-    position: relative;
-    z-index: 2;
-}
-.event-card:hover .event-icon {
-    transform: scale(1.1);
-    background: var(--primary);
-}
-.event-card div:last-child {
-    color: var(--greyscale-title);
-    font-size: 22px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    line-height: 28.5px;
-}
-/* Featured Events Section */
-.featured-events {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    margin-bottom: 4rem;
-}
-
-.featured-event {
-    background: linear-gradient(135deg, #ffffff 0%, #f8faff 100%);
-    border-radius: 24px;
-    padding: 0;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: all var(--transition-medium);
-    border: 2px solid transparent;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.featured-event:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
-    border-color: rgba(0, 211, 176, 0.3);
-}
-
-.featured-event-image {
-    position: relative;
-    height: 250px;
-    overflow: hidden;
-}
-
-.event-featured-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform var(--transition-medium);
-}
-
-.featured-event:hover .event-featured-img {
-    transform: scale(1.05);
-}
-
-.featured-event-video {
-    position: relative;
-    height: 250px;
-    background: #000;
-}
-
-.featured-event-video iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-.event-type-badge {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    background: var(--primary);
-    color: white;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.featured-event-content {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.event-date {
-    color: var(--primary);
-    font-size: 22px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 0.5rem;
-}
-
-.featured-event-content h3 {
-    font-size: 24px;
-    font-family: 'Manrope', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    color: var(--greyscale-title);
-    line-height: 1.3;
-    margin: 0 0 1rem 0;
-}
-
-.featured-event-content p {
-    font-size: 18px;
-    color: var(--greyscale-body);
-    line-height: 1.5;
-    margin: 0 0 1.5rem 0;
-    flex-grow: 1;
-}
-
-.event-btn {
-    font-size: 22px;
-    padding: 12px 24px;
-    margin-top: auto;
-    align-self: flex-start;
-}
-
-/* Podcast Feature Specific Styles */
-.podcast-placeholder {
-    background: linear-gradient(135deg, #f8faff 0%, #e8f3ff 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.podcast-icon {
-    font-size: 4rem;
-    background: linear-gradient(135deg, var(--primary) 0%, #00c9a7 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: organicBreath 3s ease-in-out infinite;
-}
-
-.coming-soon-btn {
-    background: linear-gradient(135deg, var(--primary) 0%, #00c9a7 100%);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 22px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    display: inline-block;
-    animation: organicBreath 3s ease-in-out infinite;
-    margin-top: auto;
-    align-self: flex-start;
-}
-
-/* Story Section Accordion Styles */
-.story-full {
-    overflow: hidden;
-    transition: all 0.5s ease-in-out;
-    position: relative;
-}
-
-.story-full::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 30px;
-    background: linear-gradient(transparent, white);
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.story-full.no-fade::after {
-    opacity: 0;
-}
-
-.story-bio {
-    position: relative;
-}
-
-
-
-/* Show full story on desktop, accordion on mobile */
-.story-full {
     display: block !important;
 }
 
-.story-more-btn {
-    display: none;
+.bio-full {
+    display: none !important;
 }
 
-@media (max-width: 700px) {
-    /* Story section: always show full content, no accordion */
-    .our-story .story-full {
-        display: block !important;
-    }
-    
-    .our-story .story-more-btn {
-        display: none !important;
-    }
-    
+.view-more-btn {
+    display: none !important;
+}
+
+/* Story section mobile styles */
+@media (max-width: 950px) {
     .our-story .story-text {
         text-align: left;
-    }
-    
-    /* Team section: keep accordion functionality */
-    .team-bio .bio-full {
-        display: none !important;
-    }
-    
-    .team-bio .view-more-btn {
-        display: inline-flex;
-    }
-    
-    .team-bio .bio-full {
-        margin-top: 1rem;
-    }
-    
-    /* Enable gradient for collapsed content on mobile - team section only */
-    .team-bio .bio-excerpt::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 30px;
-        background: linear-gradient(transparent, white);
-        pointer-events: none;
-        opacity: 1;
     }
 }
 
@@ -2991,6 +2543,58 @@ header {
 }
 
 @media (max-width: 700px) {
+    /* ========================================
+       MOBILE TYPOGRAPHY HIERARCHY
+       ======================================== */
+    /* Consistent mobile text hierarchy for all elements */
+    h1 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+    
+    h2 {
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+    
+    h3 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+    
+    h4 {
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+    
+    p, body, ul, li, a, .team-bio, .story-text p, .support-content p, 
+    .mission-content p, .about-text p, .volunteer-text p, .featured-event-content p,
+    .event-card-content p, .main-gallery-content p, .program-desc,
+    .team-bio .bio-excerpt, .team-bio .bio-full, .view-more-btn {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    
+    /* Buttons consistent sizing */
+    .btn, .view-more-btn, .explore-btn, .event-btn {
+        font-size: 16px !important;
+    }
+    
+    /* Small text elements */
+    .team-info .title, .event-date, .opportunity-title, .volunteer-benefit,
+    .footer-contact, .footer-tagline {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+    
+    /* Team subtitle and similar elements */
+    .team-subtitle, .hero-subtitle {
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+    
+    /* ======================================== */
+
     .header, .framework, .focus-areas {
         padding: 64px 36px;
 
@@ -3007,27 +2611,10 @@ header {
     .petal-group-2 {
         display: none; /* Hide second petal group on mobile for performance */
     }
-    .hero h1 {
-        font-size: 2.5rem;
-        line-height: 1.2;
-    }
-    .hero-subtitle {
-        font-size: 1.4rem;
-        line-height: 1.3;
-    }
     
-    .hero-content {
-        gap: 1.5rem;
-        padding: 0 0.5rem;
-    }
-    
-    .innovation-svg {
-        width: 180px;
-        height: 216px;
-    }
     .hero-belief {
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 16px !important;
+        line-height: 22px !important;
     }
     .hero-buttons {
         flex-direction: column;
@@ -3064,8 +2651,6 @@ header {
     }
     .what-we-do h2 {
         padding: 16px 36px 0;
-        font-size: 24px;
-        line-height: 36px;
         text-align: left;
     }
     
@@ -3086,13 +2671,10 @@ header {
         font-size: 50px;
     }
     .program-title {
-        font-size: 36px;
-        line-height: 48px;
+        font-size: 20px !important;
+        line-height: 28px !important;
     }
-    .program-desc {
-        font-size: 18px;
-        line-height: 26px;
-    }
+    
     .program-content-layout {
         grid-template-columns: 1fr;
         gap: 32px;
@@ -3104,14 +2686,7 @@ header {
     .program-right-column {
         gap: 1rem;
     }
-    .program-outcomes h3 {
-        font-size: 20px;
-        margin-bottom: 0.75rem;
-    }
-    .program-outcomes p {
-        font-size: 18px;
-        line-height: 22px;
-    }
+    
     .our-story {
         padding: 2rem 0;
     }
@@ -3120,22 +2695,6 @@ header {
     }
     .story-flex {
         gap: 32px;
-    }
-    .story-text p {
-        font-size: 18px;
-        line-height: 26px;
-    }
-    /* Tablet section headings: standardize all to 28px */
-    .story-text h2,
-    .support-content h2,
-    .events h2,
-    .team-header h2,
-    .volunteer-text h2,
-    .focus-areas h2,
-    .about-text h2,
-    .framework-content h2 {
-        font-size: 28px;
-        line-height: 40px;
     }
     
     .support {
@@ -3160,8 +2719,6 @@ header {
         text-align: left;
     }
     .support-content p {
-        font-size: 18px;
-        line-height: 26px;
         margin: 0 0 1.5rem 0;
         color: white;
     }
@@ -3189,12 +2746,11 @@ header {
     .mission {
         padding: 5rem 1rem;
     }
+
     .mission-content h2 {
-        font-size: 28px;
         line-height: 40px;
     }
     .mission-content p {
-        font-size: 18px;
         line-height: 28px;
     }
     .featured-events {
@@ -3213,12 +2769,10 @@ header {
     }
     
     .featured-event-content h3 {
-        font-size: 18px;
         line-height: 1.3;
     }
     
     .featured-event-content p {
-        font-size: 16px;
         line-height: 1.4;
     }
 
@@ -3239,11 +2793,9 @@ header {
     }
     
     .event-card-content h4 {
-        font-size: 18px;
     }
     
     .event-card-content p {
-        font-size: 16px;
     }
     .volunteer {
         padding: 32px 16px;
@@ -3255,7 +2807,6 @@ header {
         /* Font size standardized above */
     }
     .volunteer-text p {
-        font-size: 18px;
         line-height: 26px;
     }
     .volunteer-img {
@@ -3278,13 +2829,11 @@ header {
     }
     
     .footer-tagline {
-        font-size: 26px;
         line-height: 36px;
         margin-bottom: 1.5em;
     }
     
     .footer-contact {
-        font-size: 20px;
         line-height: 1.8;
         margin-bottom: 1.5em;
     }
@@ -3673,6 +3222,64 @@ header {
 
 /* Smallest breakpoint for better margins and vertical alignment */
 @media (max-width: 480px) {
+    /* ========================================
+       MOBILE TYPOGRAPHY HIERARCHY - 480px
+       ======================================== */
+    /* Maintain consistent hierarchy for smallest screens */
+    h1 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+    
+    h2 {
+        font-size: 24px !important;
+        line-height: 32px !important;
+    }
+    
+    h3 {
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+    
+    h4 {
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+    
+    p, body, ul, li, a, .team-bio, .story-text p, .support-content p, 
+    .mission-content p, .about-text p, .volunteer-text p, .featured-event-content p,
+    .event-card-content p, .main-gallery-content p, .program-desc,
+    .team-bio .bio-excerpt, .team-bio .bio-full, .view-more-btn,
+    .footer-contact, .footer-tagline, .program-outcomes p {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    
+    /* Buttons consistent sizing */
+    .btn, .view-more-btn, .explore-btn, .event-btn, 
+    .contact-form button {
+        font-size: 16px !important;
+    }
+    
+    /* Form inputs */
+    .contact-form input, .contact-form textarea {
+        font-size: 16px !important;
+    }
+    
+    /* Small text elements */
+    .team-info .title, .event-date, .opportunity-title, .volunteer-benefit {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+    
+    /* Hero subtitle */
+    .hero-subtitle {
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+    
+    /* ======================================== */
+
     .hero {
         padding: 60px 1rem 40px 1rem;
     }
@@ -3684,14 +3291,6 @@ header {
     }
     .petal-group-2 {
         display: none; /* Hide second petal group on smallest screens */
-    }
-    .hero h1 {
-        font-size: 1.8rem;
-        line-height: 1.2;
-    }
-    .hero-subtitle {
-        font-size: 1.4rem;
-        line-height: 1.3;
     }
     .header, .framework, .focus-areas, .team, .events {
         padding-left: 1rem;
@@ -3721,32 +3320,12 @@ header {
     .what-we-do {
         padding: 0;
     }
-    /* Mobile section headings: standardize all to 28px */
-    .what-we-do h2,
-    .story-text h2,
-    .support-content h2,
-    .events h2,
-    .team-header h2,
-    .volunteer-text h2,
-    .focus-areas h2,
-    .about-text h2,
-    .mission-content h2,
-    .framework-content h2 {
-        font-size: 28px;
-        line-height: 42px;
-    }
-    
     .mission {
         padding: 3rem 1rem;
     }
     
     .mission-content h2::after {
         bottom: -8px;
-    }
-    
-    .mission-content p {
-        font-size: 22px;
-        line-height: 33px;
     }
     
     .what-we-do h2 {
@@ -3783,14 +3362,6 @@ header {
     .program-num {
         font-size: 50px;
     }
-    .program-title {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .program-desc {
-        font-size: 22px;
-        line-height: 27px;
-    }
     .program-left-column {
         gap: 0.75rem;
     }
@@ -3798,12 +3369,7 @@ header {
         gap: 0.75rem;
     }
     .program-outcomes h3 {
-        font-size: 22px;
         margin-bottom: 0.5rem;
-    }
-    .program-outcomes p {
-        font-size: 22px;
-        line-height: 22px;
     }
     .volunteer {
         padding: 2rem 1rem;
@@ -3821,13 +3387,10 @@ header {
     }
     
     .footer-tagline {
-        font-size: 24px;
-        line-height: 34px;
         margin-bottom: 1.5em;
     }
     
     .footer-contact {
-        font-size: 22px;
         line-height: 1.8;
         margin-bottom: 1.5em;
     }
@@ -3842,12 +3405,10 @@ header {
     
     .contact-form input,
     .contact-form textarea {
-        font-size: 22px;
         padding: 1rem;
     }
     
     .contact-form button {
-        font-size: 22px;
         padding: 1rem 2rem;
     }
     .focus-cards {
@@ -3874,17 +3435,8 @@ header {
         padding: 1rem;
     }
     
-    .featured-event-content h3 {
-        font-size: 22px;
-    }
-    
-    .featured-event-content p {
-        font-size: 22px;
-    }
-    
     .event-btn {
         padding: 10px 20px;
-        font-size: 22px;
     }
     
     .gallery-container {
@@ -3935,14 +3487,98 @@ header {
     }
 
     .events-gallery-section h3 {
-        font-size: 22px;
+        font-size: 18px;
         padding: 0 1rem;
     }
     
-    /* Show team accordion button only on mobile - story section should always show full content */
-    .team-bio .view-more-btn {
-        display: inline-flex;
+}
+
+/* Team bio content - always show full content on desktop */
+.team-bio p {
+    margin-bottom: 18px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.team-bio p:last-child {
+    margin-bottom: 0;
+}
+
+/* General paragraph styling */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* View more button - hidden by default */
+.view-more-btn {
+    display: none;
+    align-items: center;
+    background: none;
+    border: none;
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+    transition: color var(--transition-medium);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.view-more-btn:hover {
+    color: var(--primary-dark);
+}
+
+/* Mobile accordion behavior (below 700px) */
+@media (max-width: 700px) {
+    /* Show view more button on mobile */
+    .view-more-btn {
+        display: inline-flex !important;
     }
     
-
+    /* Bio excerpt is always visible */
+    .bio-excerpt {
+        display: block !important;
+    }
+    
+    /* Bio full is hidden by default on mobile */
+    .bio-full {
+        display: none !important;
+        margin-top: 1rem;
+    }
+    
+    /* When expanded, show both excerpt and full */
+    .team-bio.expanded .bio-full {
+        display: block !important;
+    }
+    
+    /* Bio excerpt stays visible even when expanded */
+    .team-bio.expanded .bio-excerpt {
+        display: block !important;
+    }
 }
+
+/* Events Cards Responsive Grid */
+.events-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+@media (max-width: 900px) {
+    .events-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .events-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+

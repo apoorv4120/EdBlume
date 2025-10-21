@@ -1,4 +1,4 @@
-# EdBlume Website - Local Deployment Guide
+ # EdBlume Website - Local Deployment Guide
 
 ## Quick Start
 
